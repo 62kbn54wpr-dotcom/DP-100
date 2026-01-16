@@ -1,3 +1,13 @@
 # python-dotenv # installed via pip in venv setup
+
+# Packages needed for
+# - Create a resource group
+# - List groups and resources
 azure-mgmt-resource
 azure-identity
+
+# Packages needed for (in addition to the packages above)
+# - Create Azure storage
+azure-mgmt-storage
+
+azure.ai.ml
